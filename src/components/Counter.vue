@@ -45,6 +45,7 @@ export default {
   methods: {
     increase() {
       this.result++;
+      this.$emit("CountUp");
     },
   },
 };
